@@ -1,0 +1,135 @@
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form action="">
+
+        <!-- Input Name -->
+        <div>
+            <br>
+            <p>Digite seu nome</p>
+            <label for="nome"></label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required >
+        </div>
+
+        <!-- Input Radio -->
+        <div>
+            <p>Onde você está vendo esse form?</p>
+
+            <div>
+                <input type="radio" id="desk" name="unique">
+                <label for="desk">Notebook/Desktop</label>
+            </div>
+            <div>
+                <input type="radio" id="cel" name="unique">
+                <label for="cel">Celular</label>
+            </div> 
+            <div>
+                <input type="radio" id="tablet" name="unique">
+                <label for="tablet">Tablet</label>
+            </div>
+            <div>
+                <input type="radio" id="nem" name="unique">
+                <label for="nem">Nenhuma das opções</label>
+            </div>
+            
+        </div>
+
+        <!-- Input Select-->        
+        <br>
+        <div>
+            <label for="curso">Selecione o seu curso:</label>
+            <select name="curso" id="curso" required>
+                <option selected disabled>Selecione... </option>
+                <option value="engenharia">Engenharia da Computação</option>
+                <option value="ciencia">Ciencia da Computação</option>
+                <option value="analise">Analise e Desenvolvimento de Sistemas</option>
+                <option value="analise">Psicologia</option>
+            </select>
+        </div>
+
+        <!-- Input Checkbox-->
+        <br>
+        <div>
+            <p>Trabalha quais dias da semana?</p>
+
+            <div>                
+                <input type="checkbox" name="check" id="check1">
+                <label for="check1">Segunda</label>
+            </div>
+
+            <div>                
+                <input type="checkbox" name="check" id="check2">
+                <label for="check2">Terça</label>
+            </div>
+
+            <div>                
+                <input type="checkbox" name="check" id="check3">
+                <label for="check3">Quarta</label>
+            </div>
+            <div>                
+                <input type="checkbox" name="check" id="check3">
+                <label for="check3">Quinta</label>
+            </div>
+            <div>                
+                <input type="checkbox" name="check" id="check3">
+                <label for="check3">Sexta</label>
+            </div>
+            <div>                
+                <input type="checkbox" name="check" id="check3">
+                <label for="check3">Sábado</label>
+            </div>
+            <div>                
+                <input type="checkbox" name="check" id="check3">
+                <label for="check3">Domingo</label>
+            </div>
+
+
+        </div>
+
+        <!-- Input Datetime-->
+        <br>
+        <div>
+            <p>Que dia é hoje?</p>
+            
+            <div>
+                <label for="">Data</label>
+                <br>                
+                <input type="date" name="data" id="data">                
+            </div>
+
+        </div>
+
+        <!-- Input email-->
+        <br>
+        <div>
+            <p>Digite seu e-mail:</p>
+            
+            <div>
+                <label for="email"></label>                
+                <input type="email" name="email" id="email" required>                
+            </div>
+
+        </div>
+
+        <!-- Input telefone-->
+        <br>
+        <div>
+            <p>Digite seu telefone</p>
+            
+            <div>
+                <label for="telefone"></label>             
+                <input type="tel" name="telefone" placeholder="(##) #####-####" required>              
+            </div>
+
+        </div>
+
+        <br>
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
